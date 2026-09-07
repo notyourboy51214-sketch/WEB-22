@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMPANION | FEAR-FREE ADVANCED MEDICINE, SURGERY & 24/7 ICU</title>
+  <meta name="description" content="Board-certified veterinary surgeons, in-house high-resolution CT and ultrasound, Fear-Free certified sound-isolated suites, and compassionate round-the-clock emergency trauma care for family pets.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Navigation -->
+  <div class="nav-wrapper">
+    <nav class="navbar">
+      <div class="brand-group">
+        <span class="brand-name">COMPANION</span>
+        <span class="brand-badge">VETERINARY SPECIALTY HOSPITAL</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#section-0" class="nav-link">Emergency 24/7</a></li>
+        <li><a href="#section-1" class="nav-link">Surgery & CT</a></li>
+        <li><a href="#section-2" class="nav-link">Fear-Free Suites</a></li>
+        <li><a href="#section-3" class="nav-link">Triage Checker</a></li>
+      </ul>
+      <a href="#calculator" class="btn-pill">
+        <span>Emergency Admissions</span>
+        <span class="btn-icon-circle">↗</span>
+      </a>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="eyebrow-pill">
+          <span class="pulse-dot"></span>
+          <span>VETERINARY SPECIALTY HOSPITAL</span>
+        </div>
+        <h1 class="hero-title">FEAR-FREE ADVANCED MEDICINE, SURGERY & 24/7 ICU</h1>
+        <p class="hero-desc">Board-certified veterinary surgeons, in-house high-resolution CT and ultrasound, Fear-Free certified sound-isolated suites, and compassionate round-the-clock emergency trauma care for family pets.</p>
+        <div class="hero-actions">
+          <a href="#calculator" class="btn-pill">
+            <span>Explore Technical Specifications</span>
+            <span class="btn-icon-circle">↗</span>
+          </a>
+          <a href="#services" class="btn-pill" style="background: rgba(255,255,255,0.06); color: var(--text-main); border: 1px solid var(--border);">
+            <span>Our Disciplines</span>
+            <span class="btn-icon-circle">↓</span>
+          </a>
+        </div>
+      </div>
+      <div class="bezel-outer hero-image-wrap">
+        <img src="assets/hero.jpg" alt="COMPANION Hero Presentation" class="hero-img" loading="eager">
+      </div>
+    </div>
+  </header>
+
+  <!-- Interactive Simulator Section -->
+  <section id="calculator" class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">INTERACTIVE SIMULATOR</div>
+      <h2 class="section-title">Veterinary Symptom Triage & Urgency Matrix</h2>
+      <p class="section-subtitle">Assess clinical urgency tiers, recommended arrival windows, and critical immediate stabilization advice.</p>
+    </div>
+    
+    <div class="bezel-outer">
+      <div class="bezel-inner">
+        <div class="calc-box">
+          <div class="calc-inputs">
+            
+            <div class="input-group">
+              <label class="input-label" for="petSpecies">Patient Classification</label>
+              <select id="petSpecies" class="select-styled">
+                <option value="Canine (Small / Toy Breed)">Canine (Small / Toy Breed)</option>
+                <option value="Canine (Large / Deep-Chested)">Canine (Large / Deep-Chested)</option>
+                <option value="Feline (Domestic / Senior)">Feline (Domestic / Senior)</option>
+                <option value="Exotic / Avian Patient">Exotic / Avian Patient</option>
+              </select>
+            </div>
+  
+
+            <div class="input-group">
+              <label class="input-label" for="clinicalSymptom">Observed Critical Indicator</label>
+              <select id="clinicalSymptom" class="select-styled">
+                <option value="Suspected Toxin / Poison Ingestion">Suspected Toxin / Poison Ingestion</option>
+                <option value="Respiratory Distress / Labored Breathing">Respiratory Distress / Labored Breathing</option>
+                <option value="Limping / Acute Fracture / Trauma">Limping / Acute Fracture / Trauma</option>
+                <option value="Persistent Vomiting / Lethargy">Persistent Vomiting / Lethargy</option>
+                <option value="Routine Preventive Wellness Check">Routine Preventive Wellness Check</option>
+              </select>
+            </div>
+  
+
+            <div class="input-group">
+              <label class="input-label" for="timeElapsed">Onset of Symptoms</label>
+              <select id="timeElapsed" class="select-styled">
+                <option value="Under 1 Hour (Sudden Acute)">Under 1 Hour (Sudden Acute)</option>
+                <option value="1 - 6 Hours">1 - 6 Hours</option>
+                <option value="24+ Hours Persistent">24+ Hours Persistent</option>
+              </select>
+            </div>
+  
+          </div>
+          <div class="calc-output-card">
+            <div class="eyebrow-pill">SYSTEM DIAGNOSTIC</div>
+            <div id="calc-result-text" class="calc-output-val">INITIALIZING DATA...</div>
+            <p id="calc-result-desc" style="color: var(--text-muted); font-size: 0.95rem;">Select your parameters to run simulated load telemetry.</p>
+            <div style="margin-top: 24px;">
+              <a href="tel:8008382273" class="btn-pill">
+                <span>Direct Line: (800) 838-2273</span>
+                <span class="btn-icon-circle">📞</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services / Disciplines Bento Grid -->
+  <section id="services" class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">CORE DISCIPLINES</div>
+      <h2 class="section-title">Engineered Capabilities</h2>
+      <p class="section-subtitle">Exacting technical standards without compromise or shortcuts.</p>
+    </div>
+    <div class="services-grid">
+      
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>24/7 Emergency & Critical Care ICU</h3>
+            <p>Continuously staffed by emergency clinicians, oxygen cages, blood transfusion banking, and hemodynamic monitoring.</p>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>Minimally Invasive Laparoscopic Surgery</h3>
+            <p>Sub-centimeter surgical incisions resulting in 65% faster recovery and dramatically lower pain for your pet.</p>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>In-House CT & Digital Fluoroscopy</h3>
+            <p>Instant diagnostic imaging without waiting days for external radiology referrals.</p>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>Fear-Free Certified Protocols</h3>
+            <p>Separate feline and canine entrances, pheromone-diffused exam rooms, and positive reinforcement.</p>
+          </div>
+        </div>
+  
+    </div>
+  </section>
+
+  <!-- Visual Portfolio Showcase -->
+  <section class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">ARCHITECTURAL PORTFOLIO</div>
+      <h2 class="section-title">Verified Field Executions</h2>
+      <p class="section-subtitle">A visual chronicle of bespoke installations and documented case studies.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="bezel-outer gallery-card"><img src="assets/gallery1.jpg" alt="COMPANION Portfolio 1" loading="lazy"></div>
+      <div class="bezel-outer gallery-card"><img src="assets/gallery2.jpg" alt="COMPANION Portfolio 2" loading="lazy"></div>
+      <div class="bezel-outer gallery-card"><img src="assets/gallery3.jpg" alt="COMPANION Portfolio 3" loading="lazy"></div>
+      <div class="bezel-outer gallery-card"><img src="assets/gallery4.jpg" alt="COMPANION Portfolio 4" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- Client Testimonials -->
+  <section class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">PEER VERIFICATION</div>
+      <h2 class="section-title">Reputation Built On Precision</h2>
+      <p class="section-subtitle">Unfiltered feedback from executive clients and architectural collaborators.</p>
+    </div>
+    <div class="testimonials-grid">
+      
+        <div class="bezel-outer">
+          <div class="bezel-inner testimonial-card">
+            <blockquote>"COMPANION saved our dog’s life after he ingested a toxic mushroom at midnight. Their ICU team treated us with such profound empathy."</blockquote>
+            <div class="testimonial-author">Rachel Golding</div>
+            <div class="testimonial-role">Golden Retriever Mom</div>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner testimonial-card">
+            <blockquote>"The separate cat-only clinic is silent, calm, and stress-free. Best veterinary experience we’ve ever had."</blockquote>
+            <div class="testimonial-author">Marcus Sterling</div>
+            <div class="testimonial-role">Maine Coon Cat Parent</div>
+          </div>
+        </div>
+  
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>COMPANION</h4>
+        <p>Board-certified veterinary surgeons, in-house high-resolution CT and ultrasound, Fear-Free certified sound-isolated suites, and compassionate round-the-clock emergency trauma care for family pets.</p>
+        <div style="font-size: 0.9rem; color: var(--accent); font-weight: 600;">
+          Direct Dispatch: (800) 838-2273<br>
+          Secure Communications: admissions@companion-vet.com
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Operations HQ</h5>
+        <ul>
+          <li>550 Animal Care Way, Emergency Trauma Gate 1</li>
+          <li>Licensed & Insured</li>
+          <li>24/7 Priority Readiness</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Standards</h5>
+        <ul>
+          <li>ISO-9001 Quality Control</li>
+          <li>Zero Sub-Contract Policy</li>
+          <li>Dedicated Project Director</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 COMPANION Guild. All rights reserved. Precision architectural web execution.
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
