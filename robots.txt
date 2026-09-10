@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://21-vet-companioncare.netlify.app/sitemap.xml
